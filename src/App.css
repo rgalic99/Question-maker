@@ -24,11 +24,11 @@
 }
 
 .submit {
-	width: 80%;
-	margin-right: 0.3rem;
+	margin-right: 2.5%;
+	margin-left: 2.5%;
 }
 
 .copy {
-	width: 12%;
-	margin-left: 0.3rem;
+	margin-left: 2.5%;
+	margin-right: 2.5%;
 }
