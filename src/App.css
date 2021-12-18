@@ -25,10 +25,13 @@
 
 .submit {
 	margin-right: 2.5%;
-	margin-left: 2.5%;
 }
 
 .copy {
 	margin-left: 2.5%;
-	margin-right: 2.5%;
+}
+
+.row {
+	display: grid;
+	grid-template-columns: 10fr 2fr;
 }

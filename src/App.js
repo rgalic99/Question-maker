@@ -71,17 +71,15 @@ function App() {
 						placeholder="Odgovor 4"
 						onChange={(e) => setAnswer4(e.target.value)}
 					></input>
-					<span className="w3-row">
+					<span className="row">
 						<input
 							type="submit"
-							className="w3-col w3-container submit field"
+							className="submit field"
 							id="Submit"
 							value="Dodaj"
-							style={{ width: "75%" }}
 						></input>
 						<button
-							className="w3-col w3-container copy field"
-							style={{ width: "15%" }}
+							className="copy field"
 							type="button"
 							onClick={() => {
 								navigator.clipboard.writeText(textData);
